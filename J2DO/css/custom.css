@@ -1,0 +1,101 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+body {			
+	width: 400px;
+	height: 300px;
+	overflow-x: hidden;
+	margin: 0 0 0 0;
+	background-color: white;
+}
+
+h1 {
+	color: rgb(51, 153, 255);
+	display: inline-block;
+}
+
+h2 {
+	display: inline-block;
+	height: 30px;
+}
+
+input {
+	padding: 0;
+	height: 15px;
+	margin: 5px 1px 0 0;
+	float: right;
+}
+
+button {
+	width: 50px;
+	height: 25px;
+	float: right;
+	border: none;
+	background-color: rgb(51, 153, 255);
+}
+
+hr {
+	border-top-width: 2px;
+	border-top-color: rgb(51, 153, 255);
+	background-color: rgb(51, 153, 255);
+}
+
+.Type {
+	margin: 10px 10px 10px 10px;
+
+}
+
+.hide {
+	display: none;
+}
+
+.ToDo {
+	margin: 0 0 10px 25px;
+	text-decoration-color: rgb(51, 153, 255) !important;
+}
+
+.heading {
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+
+.delete {
+	height: 23px;
+}
+
+#Time {
+	float: left;
+	width: 90px;
+	margin-right: 10px;
+	background-color: rgb(51, 153, 255);
+}
+
+#Work_Set {
+	float: right;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+#Daily {
+	color: red;
+}
+
+#Weekly {
+	color: orange;
+}
+#Monthly {
+	color: green;
+}
+
+#Random {
+	color: black;
+}
+
+#title {
+	margin: 5px 0 0 5px;
+}
+
+#Monthly .ToDo:last-child {
+	margin-bottom: 12px;
+}

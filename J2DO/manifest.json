@@ -1,0 +1,27 @@
+{
+	"manifest_version": 2,
+	"name": "J2DO",
+	"description": "A To-Do List For A Few People",
+	"version": "1.0",
+	"permissions": [
+		"storage"
+	],
+	"browser_action": {
+	"default_icon": {
+		"16":"icon.png",
+		"32":"icon.png",
+		"64":"icon.png"
+	},
+		"default_popup": "popup.html"
+	},
+	  "icons": {
+		"16": "icon.png",
+		"32": "icon.png",
+		"48": "icon.png",
+		"128": "icon.png"
+	  },
+	"content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+	"web_accessible_resources": [
+		"img/icon128.png"
+	]
+}
